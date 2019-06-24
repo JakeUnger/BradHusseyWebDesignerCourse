@@ -30,6 +30,10 @@ header {
  padding: 10px;
 }
 
+.it, .look, .while, .VI {
+ font-style: italic;
+}
+
 article {
  background:white;
  padding: 20px;
@@ -48,4 +52,17 @@ section.post-head small {
  padding: 0 0 20px;
  border-bottom: solid 1px #eee;
  color: #00c6a0;
+}
+
+section.post-foot {
+font-size: 14px;
+border-top: solid 1px; #eee;
+margin: 20px 0 0 0;
+padding: 20px 0 0 0;
+}
+
+footer {
+ text-align: center;
+ color: #aaa;
+ font-size: 14px;
 }
