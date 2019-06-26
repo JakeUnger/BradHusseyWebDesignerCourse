@@ -122,8 +122,20 @@ a#link-1:active {
  margin: 0 auto;
 }
 
+form {
+ margin-top: 40px;
+}
+
+
 fieldset {
  padding: 40px;
+ border: solid 1px #aaa;
+ background: url('images/blue_background.jpg')
+}
+
+fieldset legend {
+ background: white;
+ padding: 10px;
  border: solid 1px #aaa;
 }
 
@@ -132,11 +144,23 @@ input[type="tel"],
 input[type="email"],
 textarea {
  padding: 10px; 
+ margin: 0 0 20px;
  border: solid 1px #454545;
  display: block;
  width: 50%;
  font-size: 14px;
  color: #777;
  font-family: Monaco, monospace;
+ text-transform: uppercase;
+}
+
+label {
+ font-size: 12px;
+ text-transform: uppercase;
+ background: url('images/red_background.jpg');
+ display: block; 
+ width: 50%;
+ padding: 10px;
+ color: white;
 }
 
