@@ -67,3 +67,76 @@ strong {
 #box6 { border: dashed 4px black;}
 #box7 { border: dotted 4px black;}
 #box8 { border: double 6px black;}
+
+#styling-links {
+ background: #333;
+}
+
+#styling-links #container {
+ background: white;
+ text-align: center;
+ width: 640;
+ margin: 0 auto;
+ padding: 40px;
+
+}
+a {
+ display: inline-block;
+}
+
+/* unvisted */
+a:link {
+color: #fc3;
+}
+/* visited */
+a:visited {
+color: #fc3;
+}
+/* hover / mouse-over */
+a:hover {
+color: green;
+}
+/* active */
+a:active {
+color: black;
+}
+
+#link-1:link {
+background: #333;
+padding: 10px;
+text-decoration: none;
+}
+
+a#link-1:hover {
+ background: #fc3;
+ color: white;
+}
+
+a#link-1:active {
+ background: #777;
+}
+
+/* Styling Web Forms Lecture */
+#container {
+ width: 600px;
+ margin: 0 auto;
+}
+
+fieldset {
+ padding: 40px;
+ border: solid 1px #aaa;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+ padding: 10px; 
+ border: solid 1px #454545;
+ display: block;
+ width: 50%;
+ font-size: 14px;
+ color: #777;
+ font-family: Monaco, monospace;
+}
+
