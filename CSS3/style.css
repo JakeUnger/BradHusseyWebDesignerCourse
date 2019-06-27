@@ -1,0 +1,12 @@
+/* style.css */
+
+#box {
+ background: red;
+ height: 200px;
+ width: 200px;
+ margin: 40px auto;
+ padding: 50px;
+ box-sizing: border-box;
+ border-radius: 100px;
+ border-bottom-left-radius: 100px;
+}
